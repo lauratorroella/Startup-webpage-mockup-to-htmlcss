@@ -1,0 +1,1358 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #74c69d;
+    padding: 30px 0;
+    margin: 0 16px;
+    max-width: 90%;
+}
+
+.header .logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header .header-logo-text{
+    color: white;
+    font-family:'Work Sans', sans-serif;
+}
+
+.header .header-logo-text h1{
+    color: white;
+    font-family:'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size:32px;
+}
+
+.greenpart{
+    background-color: #74c69d;
+}
+
+.menulogo{
+    color:white;
+    align-items: center;
+}
+
+.menutext{
+    display:none;
+}
+
+/* PART 1 DE LA WEB IMG + TEXT*/
+
+.part1{
+    padding: 40px 0;
+    margin: 0 19px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.texts{
+    color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    width: 100%;
+}
+
+.texts .text1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.texts .text2{
+    text-transform: capitalize;
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texts .text3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.75);
+}
+
+.boto1{
+    color: rgba(33, 37, 41, 1);
+    background-color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.part1 img{
+    width: 100%;
+    order: 1;
+}
+
+/* PRIMERA PART BLANCA */
+
+.firstwhite {
+    padding: 40px 0;
+    margin: 0 19px;
+    gap: 30px;
+    display: grid;
+}
+
+.whitetext{
+    display: grid;
+    gap: 10px;
+}
+
+.whitetextun {
+    color: rgb(116, 198, 157);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.whitetextdos {
+    text-transform: capitalize;
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.whitetexttres{
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+.firstwhite_logos{
+    display:grid;
+    gap: 40px;
+}
+
+.firstwhite_logos .google{
+    justify-self: center;
+    align-self: center;
+}
+
+.firstwhite_logos .microsoft{
+    justify-self: center;
+    align-self: center;
+}
+
+.firstwhite_logos .airbnb{
+    justify-self: center;
+    align-self: center;
+}
+
+.firstwhite_logos .facebook{
+    justify-self: center;
+    align-self: center;
+}
+
+.firstwhite_logos .spotify{
+    justify-self: center;
+    align-self: center;
+}
+
+.firstwhite-btn{
+    color: white;
+    background-color: rgba(33, 37, 41, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+}
+
+/* SEGONA PART BLANCA */
+
+.secondwhite{
+    margin: 0 19px;
+    padding: 40px 0;
+    gap: 50px;
+}
+
+.secondwhite img{
+    max-width: 100%;
+    height: auto;
+}
+
+.secondtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secondtext .secondtextun{
+    text-transform:capitalize;
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+.secondtext .secondtextdos{
+    color: rgba(33, 37, 41, 0.5);
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+}
+
+.secondtext .second-btn{
+    color: white;
+    background-color: rgba(33, 37, 41, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    align-self: start;
+    margin-top: 20px;
+}
+
+/* TERCERA PART BLANCA */
+
+.thirdwhite{
+    margin: 0 19px;
+    padding: 40px 0;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thirdwhite img{
+    max-width: 100%;
+    height: auto;
+    order: 2;
+    width: 100%;
+}
+
+.thirdtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    order: 1;
+    width: 100%;
+}
+
+.thirdtext .thirdtextun{
+    text-transform:capitalize;
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+.thirdtext .thirdtextdos{
+    color: rgba(33, 37, 41, 0.5);
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+}
+
+.thirdtext .third-btn{
+    color: white;
+    background-color: rgba(33, 37, 41, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    align-self: start;
+    margin-top: 20px;
+}
+
+/* QUARTA PART BLANCA */
+
+.quartapart{
+    display: grid;
+    gap: 30px;
+    margin: 15px 19px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.quartapart-text{
+    text-align: center;
+}
+
+.quartapart-text-un{
+    color: rgb(116, 198, 157);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.quartapart-text-dos{
+    text-transform: capitalize;
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quartapart-text-tres{
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+.quartapart-team{
+    display:grid;
+    gap: 30px;  
+}
+
+.quartapart-team .membreu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+.quartapart-team .membreu .name{
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quartapart-team .membreu .carrec{
+    font-family:"Work Sans", sans-serif;
+    color: rgba(33, 37, 41, 0.75);
+    text-transform: uppercase;
+}
+
+.quartapart-team .membredos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+.quartapart-team .membredos .name{
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quartapart-team .membredos .carrec{
+    font-family:"Work Sans", sans-serif;
+    color: rgba(33, 37, 41, 0.75);
+    text-transform: uppercase;
+}
+
+.quartapart-team .membretres{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+.quartapart-team .membretres .name{
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quartapart-team .membretres .carrec{
+    font-family:"Work Sans", sans-serif;
+    color: rgba(33, 37, 41, 0.75);
+    text-transform: uppercase;
+}
+
+.quartapart-team .membrequatre{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+.quartapart-team .membrequatre .name{
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quartapart-team .membrequatre .carrec{
+    font-family:"Work Sans", sans-serif;
+    color: rgba(33, 37, 41, 0.75);
+    text-transform: uppercase;
+}
+
+.quartapart-btn{
+    color: white;
+    background-color: rgba(33, 37, 41, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+}
+
+/* FOOTER */
+
+.totfooter {
+    background-color: rgba(116, 198, 157, 1);
+    
+}
+
+.footer{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footersociallinks{
+    display: flex;
+    gap:10px;
+}
+.footercc {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* PC */
+
+@media (min-width: 768px){
+
+    /* HEADER */
+    
+    .header {
+    max-width: 1140px;
+    margin: auto;
+    }
+    .menutext{
+        display: block;
+        display: flex;
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        gap: 15px;
+    }
+    .menutext .home{
+        color:white;
+        text-decoration: none;
+    }
+    .menutext .pf{
+        color:white;
+        text-decoration: none;
+    }
+    .menutext .services{
+        color:white;
+        text-decoration: none;
+    }
+    .menutext .contact{
+        color:white;
+        text-decoration: none;
+    }
+    .menulogo{
+        display: none;
+    }
+
+    /* PART 1 PC */
+
+    .part1{
+        padding: 40px 0;
+        align-items: center;
+        gap: 25px;
+        max-width:1140px;
+        margin:auto;
+    }
+
+    .texts{
+        color: white;
+        gap: 10px;
+        display: flex;
+        width: 45%;
+        order: 1;
+    }
+
+    .part1 img{
+        width: 45%;
+        order: 2;
+    }
+    
+    .texts .text1{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    
+    .texts .text2{
+        text-transform: capitalize;
+        font-family: "Crimson Text", serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .texts .text3{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        color:rgba(255, 255, 255, 0.75);
+    }
+    
+    .boto1{
+        color: rgba(33, 37, 41, 1);
+        background-color: white;
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        align-self: flex-start;
+        padding: 10px 40px;
+    }
+    
+    
+    /* PRIMERA PART BLANCA */
+    
+    .firstwhite {
+        
+    }
+    
+    .whitetext{
+        display: grid;
+        gap: 10px;
+    }
+    
+    .whitetextun {
+        color: rgb(116, 198, 157);
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Work Sans", sans-serif;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    
+    .whitetextdos {
+        text-transform: capitalize;
+        font-family: "Crimson Text", serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .whitetexttres{
+        font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+        text-align: center;
+    }
+    
+    .firstwhite_logos{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0px;
+    }
+    
+    .firstwhite_logos .google{
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .firstwhite_logos .microsoft{
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .firstwhite_logos .airbnb{
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .firstwhite_logos .facebook{
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .firstwhite_logos .spotify{
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .firstwhite-btn{
+        color: white;
+        background-color: rgba(33, 37, 41, 1);
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        align-self: flex-start;
+        padding: 10px 40px;
+    }
+    
+    /* SEGONA PART BLANCA */
+    
+    .secondwhite{
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 25px;
+        max-width: 1140px;
+        margin: auto;
+    }
+    
+    .secondwhite img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .secondtext{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .secondtext .secondtextun{
+        text-transform:capitalize;
+        font-family: "Crimson Text", serif;
+        font-size: 40px;
+        font-weight: bold;
+        display: block;
+    }
+    
+    .secondtext .secondtextdos{
+        color: rgba(33, 37, 41, 0.5);
+        font-family: "Work Sans", sans-serif;
+        font-size: 14px;
+    }
+    
+    .secondtext .second-btn{
+        color: white;
+        background-color: rgba(33, 37, 41, 1);
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        padding: 10px 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        align-self: start;
+        margin-top: 20px;
+        
+    }
+    
+    /* TERCERA PART BLANCA */
+    
+    .thirdwhite{
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 25px;
+        max-width: 1140px;
+        margin: auto;
+    }
+    
+    .thirdwhite img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .thirdtext{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .thirdtext .thirdtextun{
+        text-transform:capitalize;
+        font-family: "Crimson Text", serif;
+        font-size: 40px;
+        font-weight: bold;
+        display: block;
+    }
+    
+    .thirdtext .thirdtextdos{
+        color: rgba(33, 37, 41, 0.5);
+        font-family: "Work Sans", sans-serif;
+        font-size: 14px;
+    }
+    
+    .thirdtext .third-btn{
+        color: white;
+        background-color: rgba(33, 37, 41, 1);
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        padding: 10px 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        align-self: start;
+        margin-top: 20px;
+    }
+    
+    /* QUARTA PART BLANCA */
+    
+    .quartapart{
+        display: grid;
+        gap: 30px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        max-width:1140px;
+        margin:auto;
+    }
+    
+    .quartapart-text{
+        text-align: center;
+    }
+    
+    .quartapart-text-un{
+        color: rgb(116, 198, 157);
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Work Sans", sans-serif;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    
+    .quartapart-text-dos{
+        text-transform: capitalize;
+        font-family: "Crimson Text", serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .quartapart-text-tres{
+        font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+        text-align: center;
+    }
+    
+    .quartapart-team{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px; 
+    }
+    
+    .quartapart-team .membreu{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 20px 25px;
+    }
+    .quartapart-team .membreu .name{
+        font-family: "Crimson Text", serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .quartapart-team .membreu .carrec{
+        font-family:"Work Sans", sans-serif;
+        color: rgba(33, 37, 41, 0.75);
+        text-transform: uppercase;
+    }
+    
+    .quartapart-team .membredos{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 20px 25px;
+    }
+    .quartapart-team .membredos .name{
+        font-family: "Crimson Text", serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .quartapart-team .membredos .carrec{
+        font-family:"Work Sans", sans-serif;
+        color: rgba(33, 37, 41, 0.75);
+        text-transform: uppercase;
+    }
+    
+    .quartapart-team .membretres{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 20px 25px;
+    }
+    .quartapart-team .membretres .name{
+        font-family: "Crimson Text", serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .quartapart-team .membretres .carrec{
+        font-family:"Work Sans", sans-serif;
+        color: rgba(33, 37, 41, 0.75);
+        text-transform: uppercase;
+    }
+    
+    .quartapart-team .membrequatre{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-shadow:3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 20px 25px;
+    }
+    .quartapart-team .membrequatre .name{
+        font-family: "Crimson Text", serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .quartapart-team .membrequatre .carrec{
+        font-family:"Work Sans", sans-serif;
+        color: rgba(33, 37, 41, 0.75);
+        text-transform: uppercase;
+    }
+    
+    .quartapart-btn{
+        color: white;
+        background-color: rgba(33, 37, 41, 1);
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        padding: 10px 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        align-self: start;
+        margin-top: 20px;
+    }
+    
+    /* FOOTER */
+    
+    .totfooter {
+        background-color: rgba(116, 198, 157, 1);
+        display:block;
+        
+        
+    }
+    
+    .footer{
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row;
+        margin: 15px 148.5px 0px 148.5px
+    }
+    
+    .footersociallinks{
+        display: flex;
+        gap:10px;
+    }
+    .footercc {
+        font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+/*portfolio */
+
+.image_portfolio .grupu img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.image_portfolio .grupdos img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.image_portfolio .gruptres img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.image_portfolio .grupquatre img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.image_portfolio{
+    margin: 0 19px;
+    gap: 25px;
+    text-align: center;   
+}
+
+.text_center{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.first_btn{
+    color: white;
+    background-color: rgba(33, 37, 41, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    align-self: start;
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+
+@media (min-width: 768px){
+
+    .image_portfolio .grupu{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-bottom: 25px;
+        }
+        .image_portfolio .grupu img{
+           width: calc(50% - 30px);
+        }
+    .image_portfolio .grupdos{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-bottom: 25px;
+        }
+        .image_portfolio .grupdos img{
+            width: calc(50% - 30px);
+         }
+
+    .image_portfolio .gruptres{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-bottom: 25px;
+        }
+        .image_portfolio .gruptres img{
+            width: calc(50% - 30px);
+         }
+        
+    .image_portfolio .grupquatre{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-bottom: 25px;
+        }
+        .image_portfolio .grupquatre img{
+            width: calc(50% - 30px);
+         }
+}
+
+
+/*services*/
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+
+.tarjeta1{
+    width: 339px;
+    height: 542px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    padding: 46px 30px;
+    margin-bottom: 50px;
+}
+
+.tarjeta1 .textbasic{
+    width: auto;
+    height: 19px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: #000000;
+}
+
+.tarjeta1 .moneytext{
+    gap: 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.tarjeta1 .moneytext .money{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.tarjeta1 .moneytext .time{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.tarjeta1 .normaltext{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    text-align: center;
+    color: rgba(33, 37, 41, 0.5);
+    padding: 10px 0 55px;
+}
+
+.tarjeta1 .list{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tarjeta1 .list img{
+    width: 15px;
+    margin-right: 20px;
+}
+
+.tarjeta2 .list img{
+    width: 15px;
+    margin-right: 20px;
+}
+
+.tarjeta3 .list img{
+    width: 15px;
+    margin-right: 20px;
+}
+
+.tarjeta1 .list .listone{
+    padding-bottom: 17px;
+}
+
+.tarjeta1 .list .listtwo{
+    padding-bottom: 17px;
+}
+
+.tarjeta1 .list .listthree{
+    padding-bottom: 17px;
+}
+
+.tarjeta1 .first_btn{
+    margin-top: 48px;
+}
+
+.tarjeta2{
+    width: 339px;
+    height: 542px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    padding: 46px 30px;
+    margin-bottom: 50px;
+}
+
+.tarjeta2 .textbasic{
+    width: auto;
+    height: 19px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: #000000;
+}
+
+.tarjeta2 .moneytext{
+    gap: 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.tarjeta2 .moneytext .money{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.tarjeta2 .moneytext .time{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.tarjeta2 .normaltext{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    text-align: center;
+    color: rgba(33, 37, 41, 0.5);
+    padding: 10px 0 55px;
+}
+
+.tarjeta2 .list{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tarjeta2 .list .listone{
+    padding-bottom: 17px;
+}
+
+.tarjeta2 .list .listtwo{
+    padding-bottom: 17px;
+}
+
+.tarjeta2 .list .listthree{
+    padding-bottom: 17px;
+}
+
+.tarjeta2 .first_btn{
+    margin-top: 48px;
+}
+
+.tarjeta3{
+    width: 339px;
+    height: 542px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    padding: 46px 30px;
+    margin-bottom: 50px;
+}
+
+.tarjeta3 .textbasic{
+    width: auto;
+    height: 19px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: #000000;
+}
+
+.tarjeta3 .moneytext{
+    gap: 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.tarjeta3 .moneytext .money{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.tarjeta3 .moneytext .time{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.tarjeta3 .normaltext{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    text-align: center;
+    color: rgba(33, 37, 41, 0.5);
+    padding: 10px 0 55px;
+}
+
+.tarjeta3 .list{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tarjeta3 .list .listone{
+    padding-bottom: 17px;
+}
+
+.tarjeta3 .list .listtwo{
+    padding-bottom: 17px;
+}
+
+.tarjeta3 .list .listthree{
+    padding-bottom: 17px;
+}
+
+.tarjeta3 .first_btn{
+    margin-top: 48px;
+}
+
+/* contact */
+
+.contact .mapa{
+    margin-top: 10px;
+}
+
+.contact .mapa img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact{
+    padding: 0 15px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+textarea{
+    width: 100%;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+label{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #000000;
+}
+.big_btn{
+    color: white;
+    background-color: rgba(33, 37, 41, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 59px;
+}
+
+.questionari label{
+    display: inline-block;
+    width: 85%;
+}
+
+@media (min-width: 760px){
+    .contact{
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    input{
+        background: #EEEEEE;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 10px 0;
+        margin: 15px 0;
+        width: 575px;
+        height: 38px;
+    }
+
+    textarea{
+        background: #EEEEEE;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        margin: 15px 0;
+        padding: 10px 0;
+        width: 575px;
+        height: 75px;
+    }
+
+    .big_btn{
+        color: white;
+        background-color: rgba(33, 37, 41, 1);
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        padding: 10px 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        align-self: center;
+        margin-top: 20px;
+        justify-content: center;
+        width: 87%;
+        margin-bottom: 59px;
+    }
+}
